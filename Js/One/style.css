@@ -1,8 +1,11 @@
 body {
     background-color: aqua;
-    color: blueviolet;
+}
+.item {
+   color: rgb(26, 141, 241);
 }
 
-h1 {
-    font-size: 50px;
+.listitem {
+    display:block;
+    flex-direction: row;
 }
