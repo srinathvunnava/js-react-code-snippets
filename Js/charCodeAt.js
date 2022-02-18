@@ -43,3 +43,14 @@ async function convertStrToNum() {
 }
 
 convertStrToNum();
+
+
+
+// Short cut operator
+const a = (st) => (
+        st.split("")
+            .map(i => i.toLowerCase()
+            .charCodeAt() - 96)
+            .filter(j => j%2 === 0)
+            .reduce((pre, curr) => pre + curr)
+            )
